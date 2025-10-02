@@ -25,6 +25,10 @@ loginForm.addEventListener('submit', function(event) {
     if (role === "delegado") {
         window.location.href = "../../views/delegado/delegado.html";
         alert("¡Bienvenido Delegado! Accediendo a la página del delegado.");
+    } 
+    else if (role === "instructor") {
+        window.location.href = "../../views/profesor/profesor.html";
+        alert("!Bienvenido Profesor¡ Accediendo a la pagina del profesor.")
     //AQUI AGREGUEN SUS ROLES QUE HARAN XDXDXD
     } else {
         alert("Rol no soportado para esta demo.");

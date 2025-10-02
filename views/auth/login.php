@@ -36,7 +36,8 @@
                 <div class="role-selection">
                     <label for="role">Selecciona tu rol</label>
                     <select id="role" name="role" required>
-                          <option value="delegado">Delegado</option>
+                        <option value="alumno">Alumno</option>
+                        <option value="delegado">Delegado</option>
                         <option value="instructor">Instructor</option>
                         <option value="administrador">Administrador</option>
                     </select>
